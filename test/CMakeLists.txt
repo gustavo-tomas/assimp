@@ -100,6 +100,7 @@ SET( COMMON
   unit/Common/utBase64.cpp
   unit/Common/utHash.cpp
   unit/Common/utBaseProcess.cpp
+  unit/Common/utLogger.cpp
 )
 
 SET(Geometry 
@@ -148,6 +149,7 @@ SET( IMPORTERS
   #unit/utM3DImportExport.cpp
   unit/utMDCImportExport.cpp
   unit/utAssbinImportExport.cpp
+  unit/utUSDImport.cpp
   unit/ImportExport/utAssjsonImportExport.cpp
   unit/ImportExport/utCOBImportExport.cpp
   unit/ImportExport/utOgreImportExport.cpp
